@@ -1,7 +1,6 @@
 class Anagram
   attr_accessor :word, :array
-  
-  def initailize(word)
+  def initailize
     self.word = word
     self.array = self.word.split("").sort
   end
